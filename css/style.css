@@ -1,0 +1,212 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #07081A;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+   list-style: none; 
+}
+
+.full-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+.container{
+    max-width: 1020px;
+    width: 100%;
+    padding: 0 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 28px 200px 0px 200px;
+    border-bottom: 1px solid #261C51;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+nav ul{
+    display: flex;
+    gap: 16px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    text-transform: capitalize;
+}
+
+.nav-link:hover{
+    color: #8CE900;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero h1{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px; 
+}
+.project{
+    display: flex;
+    padding: 40px 72px;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    background: #242642;
+}
+.project-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-list h2{
+    color: #8CE900;
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; 
+}
+.project-list span{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.fix{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+footer{
+    margin-top: 200px;
+    padding: 20px 0; 
+    display: flex;
+    justify-content: center;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 254px;
+    color: #FFF;
+}
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+.footer-navigation span{
+    color: #8CE900;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.footer-navigation a{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+.contact-address{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.contact-gr{
+    color: #8CE900;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.logo-footer p{
+    color: #C0C0C0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.f-logo{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    gap: 12px;
+}
